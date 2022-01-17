@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AthleticsGram</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="css/bottomNavbar.css" rel="stylesheet" type="text/css" />
+  <link href="css/notifications.css" rel="stylesheet" type="text/css" />
+  <link href="css/darkMode.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-
+    50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- Boxicons CSS -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="sidemenu">
+    <div class="sidemenuContent">
+      <div class="profile">
+        <div class="profileFlex">
+          <img class="profileImg" src="images/profile.jpg">
+          <div class="profileFlex">
+            <div>
+              <h2>margauxdossche</h2>
+              <p>Tiener</p>
+            </div>
+            <i class="fas fa-chevron-down profileRecordsMore"></i>
+            <i class="fas fa-chevron-up profileRecordsMore2"></i>
+          </div>
+        </div>
+        <div class="profileRecords">
+          <h2 class="headerRecords">Persoonlijke Records</h2>
+          <div class="resultaten">
+            <div class="resultatenNumbersSubtitles">
+              <h1>Tijd</h1>
+              <h1>Afstand</h1>
+            </div>
+            <div style="height: 15px;"></div>
+            <div class="resultatenNumbers">
+              <div class="resultatenAfstand">
+                <h2>800m</h2>
+              </div>
+              <div class="resultatenAfstand">
+                <h2>2:19.96</h2>
+              </div>
+            </div>
+            <div class="resultatenNumbers">
+              <div class="resultatenAfstand">
+                <h2>1000m</h2>
+              </div>
+              <div class="resultatenAfstand">
+                <h2>3:07.71</h2>
+              </div>
+            </div>
+            <div class="resultatenNumbers">
+              <div class="resultatenAfstand">
+                <h2>1500m</h2>
+              </div>
+              <div class="resultatenAfstand">
+                <h2>4:54.75</h2>
+              </div>
+            </div>
+            <div class="resultatenNumbers">
+              <div class="resultatenAfstand">
+                <h2>1 mijl</h2>
+              </div>
+              <div class="resultatenAfstand">
+                <h2>5:34.75</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="profileNumbers">
+          <div class="profilePost">
+            <h2>40</h2>
+            <h1>Berichten</h1>
+          </div>
+          <div class="profileLine"></div>
+          <div class="profileFollowers">
+            <h2>10k</h2>
+            <h1>Volgers</h1>
+          </div>
+          <div class="profileLine"></div>
+          <div class="profileFollowing">
+            <h2>526</h2>
+            <h1>Volgend</h1>
+          </div>
+        </div>
+        <div class="profileMenu">
+          <a class="profileMenuActive"><i class='bx bx-home-alt'></i> Home</a>
+          <div class="notifications">
+            <a class="notificationButton"><i class='bx bx-bell'></i> Notifications <span>1</span></a>
+            <div class="notificationContent">
+              <i class='bx bx-x notificationClose'></i>
+              <h1>Nieuw</h1>
+              <div>
+                <div class="notification">
+                  <div class="notificationFlex">
+                    <img class="notificationImg" src="../images/follower1.jpg">
+                    <p><span>liere_vh</span> likte je post. <span class="notificationTime">7min</span></p>
+                  </div>
+                  <i class='bx bx-image'></i>
+                </div>
+                <hr>
+              </div>
+              <h1>Ouder</h1>
+              <div>
+                <div class="notification">
+                  <div class="notificationFlex">
+                    <img class="notificationImg" src="../images/follower1.jpg">
+                    <p><span>liere_vh</span> volgt je nu. <span class="notificationTime">6u</span></p>
+                  </div>
+                  <i class='bx bx-user-check notificationFollow'></i>
+                </div>
+                <hr>
+              </div>
+              <div>
+                <div class="notification">
+                  <div class="notificationFlex">
+                    <img class="notificationImg" src="../images/follower3.jpg">
+                    <p><span>gregg_ds</span> likte je post. <span class="notificationTime">6u</span></p>
+                  </div>
+                  <i class='bx bx-image'></i>
+                </div>
+                <hr>
+              </div>
+              <div>
+                <div class="notification">
+                  <div class="notificationFlex">
+                    <img class="notificationImg" src="../images/follower2.jpg">
+                    <p><span>lieze_de_clercq</span> volgt je nu. <span class="notificationTime">6u</span></p>
+                  </div>
+                  <i class='bx bx-user-check notificationMobileFollow'></i>
+                </div>
+                <hr>
+              </div>
+            </div>
+          </div>
+          <a><i class='bx bx-bookmark'></i> Saved</a>
+          <a>
+            <div class="settingsWeb">
+              <h2>Darkmode</h2>
+              <label for="checkWeb" class="con-switch2">
+                <input id="checkWeb" class="input switchInput" type="checkbox">
+                <div class="circle2"></div>
+              </label>
+            </div>
+          </a>
+          <a class="logout"><i class='bx bx-log-out'></i> Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sidemenuMobile">
+    <div class="sidemenuContentMobile">
+      <div style="height: 65px"></div>
+      <div class="profile">
+        <img class="profileImg" src="images/profile.jpg">
+        <div class="profileFlex">
+          <div class="profileFlex">
+            <div>
+              <h2>margauxdossche</h2>
+              <p>Tiener</p>
+            </div>
+          </div>
+        </div>
+        <div class="profileNumbers">
+          <div class="profilePost">
+            <h2>40</h2>
+            <h1>Berichten</h1>
+          </div>
+          <div class="profileLine"></div>
+          <div class="profileFollowers">
+            <h2>10k</h2>
+            <h1>Volgers</h1>
+          </div>
+          <div class="profileLine"></div>
+          <div class="profileFollowing">
+            <h2>526</h2>
+            <h1>Volgend</h1>
+          </div>
+        </div>
+        <div class="profileRecords">
+          <h2 class="headerRecords">Persoonlijke Records</h2>
+          <div class="resultaten">
+            <div class="resultatenNumbersSubtitles">
+              <h1>Tijd</h1>
+              <h1>Afstand</h1>
+            </div>
+            <div style="height: 15px;"></div>
+            <div class="resultatenNumbers">
+              <div class="resultatenAfstand">
+                <h2>800m</h2>
+              </div>
+              <div class="resultatenAfstand">
+                <h2>2:19.96</h2>
+              </div>
+            </div>
+            <div class="resultatenNumbers">
+              <div class="resultatenAfstand">
+                <h2>1000m</h2>
+              </div>
+              <div class="resultatenAfstand">
+                <h2>3:07.71</h2>
+              </div>
+            </div>
+            <div class="resultatenNumbers">
+              <div class="resultatenAfstand">
+                <h2>1500m</h2>
+              </div>
+              <div class="resultatenAfstand">
+                <h2>4:54.75</h2>
+              </div>
+            </div>
+            <div class="resultatenNumbers">
+              <div class="resultatenAfstand">
+                <h2>1 mijl</h2>
+              </div>
+              <div class="resultatenAfstand">
+                <h2>5:34.75</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="profileMenu">
+          <a class="logout"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAvklEQVRIS92V0Q3CQAxDXyeADQoTwAiMQieDTdpRYAM2AFnqSQcqlSM1UuG+EztxnEtD8muS8VkNwQm4ADuj4xvQAYNi3Q6U1BrgJUTx+wjBc8x0CnqLdRKE/ZsEV+A8SrNoB1ugB44BE9Tzn52BQAUukogJLALJIa9H36dRvnaQTqDKJZE2cJMhUZFG+ovkkDHkWv80m04NedE9+E+CR+UsZ0/u5Xa4v6kOjobu3ASBa6dCB8epejLG7WC9BC+3rCgZQI207QAAAABJRU5ErkJggg==" /> Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="overlay"></div>
+  <div class="header">
+    <h1>Run Time</h1>
+    <i class='bx bx-dots-vertical-rounded headerProfile'></i>
+    <i class='bx bx-x headerProfileMobile'></i>
+  </div>
+  <div class="settings">
+    <div class="settingsFlex">
+      <h2>Darkmode</h2>
+      <label for="check" class="con-switch">
+        <input id="check" class="input switchInput" type="checkbox">
+        <div class="circle"></div>
+      </label>
+    </div>
+  </div>
+
+  <div class="mobileDiv"></div>
+  <div class="posts">
+    <div class="postsColumnLeft">
+      <div class="post">
+        <div class="postContent">
+          <div class="postProfile">
+            <div class="postProfileImg"></div>
+            <h2>margauxdossche</h2>
+          </div>
+          <img class="postImg" src="images/margauxPost1.jpeg">
+          <div class="postMore">
+            <div class="postActions">
+              <i class="fas fa-heart"></i>
+              <i class="far fa-comment"></i>
+              <i class="fas fa-bookmark"></i>
+            </div>
+            <p class="postGeleden">6u geleden</p>
+          </div>
+          <h2>2.500 likes</h2>
+          <h2 class="postBio"><span>margauxdossche:</span> Dit is wat tekst om op te vullen als bio.</h2>
+          <p>Bekijk alle 78 comments</p>
+          <div style="height: 15px;"></div>
+        </div>
+      </div>
+      <div class="post postResultaten">
+        <div class="postContent">
+          <div class="postProfile">
+            <div class="postProfileImg"></div>
+            <h2>margauxdossche</h2>
+          </div>
+          <div class="resultaten">
+            <h1 class="headerTraining">Training</h1>
+            <div class="resultatenNumbers">
+              <div class="resultatenAfstand">
+                <h1>Afstand</h1>
+                <h2>800m</h2>
+              </div>
+              <div class="resultatenAfstand">
+                <h1>Tijd</h1>
+                <h2>2:54.95</h2>
+              </div>
+            </div>
+          </div>
+          <img class="postImg" src="images/margauxPost3.jpeg">
+          <div class="postMore">
+            <div class="postActions">
+              <i class="fas fa-heart"></i>
+              <i class="far fa-comment"></i>
+              <i class="fas fa-bookmark"></i>
+            </div>
+            <p class="postGeleden">8u geleden</p>
+          </div>
+          <h2>2.300 likes</h2>
+          <h2 class="postBio"><span>margauxdossche:</span> Dit is wat tekst om op te vullen als bio.</h2>
+          <p>Bekijk alle 64 comments</p>
+          <div style="height: 15px;"></div>
+        </div>
+      </div>
+    </div>
+    <div class="postsColumnRight">
+      <div class="post postResultaten">
+        <div class="postContent">
+          <div class="postProfile">
+            <div class="postProfileImg"></div>
+            <h2>margauxdossche</h2>
+          </div>
+          <div class="resultaten postWedstrijd">
+            <h1>Aces Veldloop</h1>
+            <h2 class="headerWedstrijd">Wedstrijd</h2>
+            <div class="resultatenNumbers">
+              <div class="resultatenAfstand">
+                <h1>Afstand</h1>
+                <h2>1500m</h2>
+              </div>
+              <div class="resultatenAfstand">
+                <h1>Tijd</h1>
+                <h2>5:14.85</h2>
+              </div>
+              <div class="resultatenAfstand">
+                <h1>Plaats</h1>
+                <h2>2de</h2>
+              </div>
+            </div>
+          </div>
+          <img class="postImg" src="images/margauxPost2.jpeg">
+          <div class="postMore">
+            <div class="postActions">
+              <i class="fas fa-heart"></i>
+              <i class="far fa-comment"></i>
+              <i class="far fa-bookmark"></i>
+            </div>
+            <p class="postGeleden">8u geleden</p>
+          </div>
+          <h2>2.300 likes</h2>
+          <h2 class="postBio"><span>margauxdossche:</span> Dit is wat tekst om op te vullen als bio.</h2>
+          <p>Bekijk alle 64 comments</p>
+          <div style="height: 15px;"></div>
+        </div>
+      </div>
+      <div class="post officieelBericht">
+        <div class="postContent">
+          <div class="postProfile">
+            <div class="postProfileImg3"></div>
+            <h2>Vlaamse Atletiekliga v.z.w.</h2>
+          </div>
+          <h1>Officiële Berichten</h1>
+          <h2 class="officieelBerichtH2">Officieel bericht van 22/12.</h2>
+          <div style="height: 15px;"></div>
+          <a href="https://www.atletiek.be/nieuws/officiele-berichten-22-12-2020" target="_blank" class="meerLezen">Meer lezen</a>
+          <div style="height: 40px;"></div>
+        </div>
+      </div>
+      <div class="post postResultaten">
+        <div class="postContent">
+          <div class="postProfile">
+            <div class="postProfileImg"></div>
+            <h2>margauxdossche</h2>
+          </div>
+          <div class="resultaten">
+            <h1 class="headerTraining">Nieuw Persoonlijk record!</h1>
+            <div class="resultatenNumbers">
+              <div class="resultatenAfstand">
+                <h1>Afstand</h1>
+                <h2>800m</h2>
+              </div>
+              <div class="resultatenAfstand">
+                <h1>Tijd</h1>
+                <h2>2:19.96</h2>
+              </div>
+            </div>
+          </div>
+          <div class="postMore">
+            <div class="postActions">
+              <i class="fas fa-heart"></i>
+              <i class="far fa-comment"></i>
+              <i class="far fa-bookmark"></i>
+            </div>
+            <p class="postGeleden">8u geleden</p>
+          </div>
+          <h2>2.300 likes</h2>
+          <h2 class="postBio"><span>atletiekAccount:</span> Dit is wat tekst om op te vullen als bio.</h2>
+          <p>Bekijk alle 64 comments</p>
+          <div style="height: 15px;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div style="margin-left: -6px" class="bottom-navbar">
+    <div class="con-effect">
+      <div class="effect"></div>
+    </div>
+    <a class="active">
+      <i class='bx bx-home-alt'></i>
+    </a>
+    <a href="html/notifications.html">
+      <i class='bx bx-bell'></i>
+      <div class="badge"></div>
+    </a>
+    <a>
+      <i class='bx bx-plus'></i>
+    </a>
+    <a href="html/saved.html">
+      <i class='bx bx-bookmark'></i>
+    </a>
+    <a href="html/profile.html">
+      <i class='bx bx-user'></i>
+    </a>
+  </div><!-- The core Firebase JS SDK is always required and must be listed first -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-app.js"></script>
+
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.2.2/firebase-analytics.js"></script>
+
+  <script>
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    var firebaseConfig = {
+      apiKey: "AIzaSyAVNDiwV2XpaIr6geCQZigKCGz6wzp67X4",
+      authDomain: "run-time-2.firebaseapp.com",
+      projectId: "run-time-2",
+      storageBucket: "run-time-2.appspot.com",
+      messagingSenderId: "4390734245",
+      appId: "1:4390734245:web:a2c3a38c4460b77098c04c",
+      measurementId: "G-D10DRN5XVG"
+    };
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    firebase.analytics();
+  </script>
+  <script src = "https://www.gstatic.com/firebasejs/8.2.2/firebase-database.js" > </script> 
+  <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+  <script src="plugins/jquery-2.1.1.min.js"></script>
+  <script src="jquery-3.5.1.min.js"></script>
+  <script src="script.js"></script>
+  <script src="js/darkMode.js"></script>
+  <script src="https://unpkg.com/boxicons@latest/dist/boxicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,725 @@
+body {
+  background: #E9E9E9;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  margin: 0 !important;
+}
+
+.sidemenu {
+  width: 25%;
+  height: calc(100vh + 7px);
+  background: #fff;
+  margin: -7px;
+  position: fixed;
+  z-index: 100;
+}
+
+.sidemenuMobile {
+  display: none;
+  width: 101.5vw;
+  height: 100vh;
+  background: #fff;
+  margin: -7px;
+  z-index: 1000;
+}
+
+.sidemenuContent {
+  padding: 40px 15px;
+}
+
+.sidemenuContentMobile {
+  padding: 40px 45px 0;
+}
+
+.sidemenuTitle {
+  font-family: 'Pacifico', cursive;
+}
+
+.profileFlex {
+  display: flex;
+  align-items: center;
+}
+
+.profileFlex h2 {
+  margin-top: 0;
+}
+
+.profileFlex i {
+  position: absolute;
+  right: 30px;
+  font-size: 18px;
+  margin-top: -10px;
+}
+
+.profileImg {
+  width: 72px;
+  height: 72px;
+  border-radius: 22%;
+  margin-right: 12px;
+}
+
+.profileFlex h2 {
+  font-size: 18px;
+  color: #262626;
+  line-height: 18px;
+  margin-bottom: 7px;
+}
+
+.profileFlex p {
+  font-size: 16px;
+  color: #787878;
+  margin: 0;
+  font-weight: 500;
+}
+
+.profileNumbers {
+  border-top: 1px #CBCABE solid;
+  border-bottom: 1px #CBCABE solid;
+  justify-content: space-around;
+  padding: 5px 7px;
+  display: flex;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.profileNumbers h2 {
+  font-size: 15px;
+  color: #262626;
+  margin: 0px;
+}
+
+.profileNumbers h1 {
+  font-size: 16px;
+  font-weight: 620;
+  color: #262626;
+  margin-top: 5px;
+  margin-bottom: 4px;
+}
+
+.profilePost {
+  padding: 5px 0px 5px 0px;
+}
+
+.profileFollowers {
+  padding: 5px 0px 5px 0px;
+}
+
+.profileFollowing {
+  padding: 5px 0px 5px 0px;
+}
+
+.profileLine {
+  border-left: 1.5px #CBCABE solid;
+}
+
+.profileMenu {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.profileMenu a {
+  padding: 12px 12px;
+  font-weight: 500;
+  font-size: 17px !important;
+  text-decoration: none;
+  color: #212121;
+}
+
+.profileMenu a span {
+  padding-left: 10px;
+}
+
+.profileMenu i {
+  font-size: 23px !important;
+  padding-right: 10px;
+  margin-left: 5px !important;
+  vertical-align: middle;
+  margin-top: -5px !important;
+}
+
+.profileMenu a:hover {
+  cursor: pointer;
+}
+
+.profileMenuActive {
+  background: #F3F3F3;
+  border-radius: 10px;
+}
+
+.logout {
+  border-top: 1px #CBCABE solid;
+  border-bottom: 1px #CBCABE solid;
+}
+
+.headerRecords {
+  font-size: 20px !important;
+  text-align: center !important;
+  margin-bottom: 0px;
+  font-weight: 700;
+  margin-top: 15px;
+  color: #212121;
+}
+
+.profileRecords {
+  display: none;
+}
+
+.sidemenuMobile .profileRecords {
+  display: block;
+}
+
+.profileRecords .resultaten h2 {
+  font-size: 18px;
+}
+
+.profileRecords .resultaten h1 {
+  font-size: 16px !important;
+}
+
+.sidemenu .resultatenNumbers {
+  padding: 10px 0 10px 0;
+}
+
+.sidemenu .resultatenNumbers:first-child {}
+
+.sidemenu .resultatenNumbers h2 {
+  margin: 0;
+}
+
+.resultatenNumbersSubtitles {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  color: #787878;
+  border-bottom: 2px #CBCABE solid;
+}
+
+.resultatenNumbersSubtitles h1 {
+  margin: 0;
+}
+
+.posts {
+  margin-left: 25%;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.postsColumnLeft {
+  display: flex;
+  flex-direction: column;
+}
+
+.postsColumnRight {
+  display: flex;
+  flex-direction: column;
+}
+
+.post {
+  width: 380px;
+  max-width: 96vw;
+  background: #fff;
+  border-radius: 20px !important;
+  margin: 22px 30px;
+  box-shadow: rgba(0, 0, 0, 0.2.4) 0px 2px 4px 0px;
+  display: inline-flex;
+}
+
+.postProfile {
+  display: flex;
+  padding: 10px 0;
+  align-items: center !important;
+}
+
+.postProfileImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 22%;
+  margin-top: 8px;
+  margin-right: 5px;
+  background-image: url(images/profile.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.postProfileImg2 {
+  width: 50px;
+  height: 50px;
+  border-radius: 22%;
+  margin-top: 8px;
+  margin-right: 5px;
+  background-image: url(images/profile2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.postProfileImg3 {
+  width: 50px;
+  height: 50px;
+  border-radius: 22%;
+  margin-top: 8px;
+  margin-right: 5px;
+  background-image: url(images/atletiekLiga.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.postProfile h2 {
+  font-size: 18px !important;
+  font-weight: 600;
+}
+
+.postContent {
+  padding: 0px 27px;
+  width: 100%;
+}
+
+.postImg {
+  border-radius: 15px;
+  margin: 5px 0;
+  width: 100%;
+}
+
+.postMore {
+  display: flex;
+  justify-content: space-between;
+}
+
+.postMore p {
+  margin: 5px !important;
+}
+
+.postActions {
+  font-size: 23px;
+}
+
+.postActions * {
+  padding: 0 4px;
+}
+
+.fa-heart {
+  color: #DC5566;
+}
+
+.post h2 {
+  font-size: 15px;
+  margin: 6px;
+  color: #212121;
+}
+
+.postBio {
+  font-weight: 400;
+  font-size: 16px !important;
+  width: 100%;
+}
+
+.postBio span {
+  font-weight: 500;
+}
+
+.post p {
+  color: #787878;
+  font-weight: 550;
+  margin: 9px 7px;
+  font-size: 14px;
+}
+
+.resultaten {
+  padding: 13px 15px 20px 15px;
+  border-radius: 20px;
+}
+
+.resultaten h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 0px;
+  padding-bottom: 5px;
+}
+
+.resultatenNumbers {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.resultatenNumbers h2 {
+  font-size: 20px;
+  margin-top: 2px;
+  color: #212121;
+}
+
+.resultatenNumbers h1 {
+  font-size: 16px;
+  border: none;
+  margin-bottom: 0px;
+  color: #787878
+}
+
+.postMore {
+  margin-top: 15px;
+}
+
+.headerTraining {
+  border-bottom: 2px #CBCABE solid;
+}
+
+.headerWedstrijd {
+  border-bottom: 2px #CBCABE solid;
+  font-size: 18px;
+  margin-top: 0 !important;
+  padding: 0;
+  text-align: center;
+  padding-bottom: 5px;
+  color: #787878;
+}
+
+.postWedstrijd h1,
+.officieelBericht h1 {
+  margin-bottom: 0px;
+}
+
+.officieelBericht h3 {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 8px;
+}
+
+.officieelBericht {
+  text-align: center
+}
+
+.meerLezen {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  background: #32327D;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 6px 10px 8px 10px;
+  ;
+  vertical-align: middle;
+}
+
+.postBio {
+  text-align: left;
+}
+
+.post p {
+  text-align: left;
+}
+
+.officieelBerichtH2 {
+  color: #787878;
+}
+
+.headerSaved {
+  display: flex;
+  background: #fff;
+  width: calc(100vw - 22% - 40px);
+  align-items: center;
+  border-radius: 18px;
+  margin: 5px 0 0 40px;
+}
+
+.headerSaved i {
+  font-size: 35px;
+  padding: 16px 18px;
+}
+
+.headerSaved h1 {
+  margin: 0 !important;
+}
+
+.headerSaved p {
+  margin: 0 !important;
+  font-size: 18px;
+  padding-bottom: 12px;
+  color: #787878;
+  font-weight: 600;
+}
+
+.navbar {
+  position: absolute;
+  left: calc(25% + 25px);
+  display: flex;
+  align-items: center;
+  width: 70%;
+  margin-top: 15px;
+}
+
+.navbarInput {
+  background: #fff;
+  width: 300px;
+  color: #212121;
+  border: none;
+  height: 45px;
+  padding: 3px 40px;
+  border-radius: 8px;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.2.4) 0px 4px 8px 0px;
+}
+
+.navbarInput::placeholder {
+  color: #212121;
+}
+
+.navbar label i {
+  position: relative;
+  right: -35px;
+}
+
+.navbar div {
+  position: absolute;
+  right: 80px;
+  align-items: center;
+}
+
+.navbar div a img {
+  width: 30px;
+  color: #212121;
+  padding: 0 14px;
+}
+
+.saveImg {
+  width: 25px !important;
+}
+
+.sidemenuMobile .profile {
+  text-align: center !important;
+  justify-content: center;
+}
+
+.sidemenuMobile .profileImg {
+  margin: 0 0 8px 0;
+}
+
+.sidemenuMobile .profileFlex div h2 {
+  font-size: 20px !important;
+}
+
+.sidemenuMobile .profileFlex div p {
+  font-size: 18px !important;
+}
+
+.sidemenuMobile .profileFlex {
+  text-align: center !important;
+  justify-content: center;
+}
+
+.sidemenuMobile .profileNumbers h1 {
+  font-size: 17px;
+}
+
+.sidemenuMobile .profileNumbers h2 {
+  font-size: 19px;
+}
+
+.sidemenuMobile .resultatenNumbersSubtitles h1 {
+  font-size: 20px !important;
+}
+
+.sidemenuMobile .headerRecords {
+  font-size: 22px !important;
+}
+
+.sidemenuMobile .resultatenNumbers h2 {
+  font-size: 20px;
+}
+
+@media(max-width: 1024px) {
+  .sidemenu {
+    width: 30%;
+  }
+
+  .posts {
+    margin-left: 35%;
+  }
+}
+
+@media(max-width: 768px) {
+  .sidemenu {
+    width: 37%;
+    height: 100%;
+  }
+
+  .posts {
+    margin-left: 37%;
+  }
+}
+
+@media(max-width: 468px) {
+  .sidemenu {
+    display: none;
+  }
+
+  .posts {
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: 2%;
+    width: 100vw;
+  }
+
+  .post {
+    width: 92%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.notificationClose {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 32px !important;
+  ;
+}
+
+.settings {
+  display: none;
+  position: fixed !important;
+  width: 92.5vw;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background: #fff;
+  height: auto;
+  position: absolute;
+  top: 0;
+  z-index: 2000;
+  padding: 90px 15px 10px 15px;
+  align-items: center;
+}
+
+.settingsWeb{
+  display: flex;
+  align-items: center;
+}
+
+.settingsWeb h2{
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0;
+  padding-left: 7px;
+}
+
+.settingsFlex{
+  display: flex;
+}
+
+.settings h2 {
+  color: #121212;
+  font-size: 22px;
+}
+
+.con-switch {
+  width: 80px;
+  background: rgba(99, 107, 144);
+  position: absolute;
+  height: 40px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all .25s ease;
+  right: 15px;
+  bottom: 20px;
+}
+
+.con-switch:active .circle {
+  width: 50px;
+}
+
+.con-switch:active .input:checked ~ .circle {
+  left: 40px;
+}
+
+.input {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  opacity: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.con-switch:hover {
+  background: rgba(99, 107, 144, .25);
+}
+
+.input:checked ~ .circle {
+  left: 40px;
+  opacity: 1;
+}
+
+.circle {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background: #121212;
+  z-index: 200;
+  transition: all .25s ease;
+  box-shadow: 0px 10px 20px 0px rgba(99, 107, 144, .35);
+  opacity: .4;
+}
+
+.con-switch2 {
+  width: 60px;
+  background: rgba(99, 107, 144, .25);
+  position: absolute;
+  height: 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all .25s ease;
+  right: 15px;
+}
+
+.con-switch2:active .circle2 {
+  width: 50px;
+}
+
+.con-switch2:active .input:checked d .circle2 {
+  left: 0;
+  background: #000 !important;
+}
+
+.input {
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  opacity: 0;
+  z-index: 100;
+  cursor: pointer;
+}
+
+.con-switch2:hover {
+  background: rgba(99, 107, 144, .25);
+}
+
+.input:checked ~ .circle2 {
+  left: 30px;
+  opacity: 1;
+}
+
+.circle2 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  background: rgba(99, 107, 144, 1);
+  z-index: 200;
+  transition: all .25s ease;
+  box-shadow: 0px 10px 20px 0px rgba(99, 107, 144, .35);
+  opacity: .4;
+}

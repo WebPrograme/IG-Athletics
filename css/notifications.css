@@ -1,0 +1,145 @@
+.content{
+  width: 95vw;
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 120px;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.notificationsMobile hr{
+  opacity: 0;
+}
+
+.notificationsMobile h1{
+  font-size: 28px;
+  margin: 10px 12px;
+}
+
+.notificationMobile{
+  display: flex;
+  width: 96%;
+  padding: 8px 12px;
+  align-items: center;
+}
+
+.notificationMobileFlex{
+  display: flex;
+}
+
+.notificationMobileImg{
+  width: 60px;
+  height: 60px;
+  border-radius: 22%;
+  padding-right: 10px;
+}
+
+.notificationMobile p{
+  font-size: 18px;
+  width: 68%;
+  margin: 0;
+}
+
+.notificationMobile span{
+  font-weight: bold;
+}
+
+.notificationTime{
+  color: #787878;
+  font-weight: 700 !important;
+  padding-left: 2px;
+}
+
+.notificationMobile i{
+  position: absolute;
+  right: calc(3% + 15px);
+  font-size: 38px;
+  padding: 4px 9px;
+  width: 42px;
+  background: #e9e9e9;
+  border-radius: 9px;
+}
+
+.notifications{
+  display: flex;
+  align-items: center;
+}
+
+.notifications hr{
+  opacity: 0;
+}
+
+.notificationContent{
+  position: absolute;
+  left: calc(100% + 20px);
+  align-items: center;
+  width: 100%;
+  height: auto;
+  max-height: 50%;
+  padding: 15px 20px;
+  background: #fff;
+  border-radius: 20px;
+  overflow-y: auto;
+  display: none;
+}
+
+.notification{
+  display: flex;
+  width: 100%;
+  padding: 8px 5px;
+}
+
+.notificationFlex{
+  display: flex;
+}
+
+.notificationImg{
+  width: 60px;
+  height: 60px;
+  border-radius: 22%;
+  margin-right: 7px;
+}
+
+.notificationTime{
+  color: #787878;
+  font-weight: 700 !important;
+  padding-left: 2px;
+}
+
+.notification p{
+  font-size: 17px;
+  width: 65%;
+  margin: 0;
+}
+
+.notification span{
+  font-weight: bold;
+}
+
+.notification i{
+  position: absolute;
+  right: 2%;
+  font-size: 25px !important;
+  padding: 4px 9px;
+  width: 35px;
+  background: rgb(120,120,120,.35);
+  border-radius: 9px;
+  text-align: center;
+}
+
+.notifications h1{
+  margin: 10px 0;
+  font-size: 25px;
+}
+
+.overlay{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  position: fixed;
+  z-index: 50;
+  display: none;
+  background-color: rgba(0,0,0,0.5);
+}

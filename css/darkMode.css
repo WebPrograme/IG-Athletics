@@ -1,0 +1,131 @@
+.bodyDark {
+  background: #282828 !important;
+}
+
+.sidemenuDark {
+  background: #121212 !important;
+}
+
+.sidemenuMobileDark {
+  background: #121212 !important;
+}
+
+.profileMenuActiveDark {
+  background: #404040 !important;
+}
+
+.postDark,
+.officieelBerichtDark {
+  background: #121212 !important;
+  color: #fff !important;
+}
+
+.postResultatenDark {
+  background: #121212 !important;
+  color: #fff !important;
+}
+
+.postContentDark {
+  color: #fff !important;
+}
+
+.headerSavedDark {
+  display: flex;
+  background: #121212 !important;
+}
+
+.profileFlexDark h2 {
+  color: #fff !important;
+}
+
+.profileFlexDark p {
+  color: #fff !important;
+  font-weight: 500;
+}
+
+.profileNumbersDark h2 {
+  color: #fff !important;
+}
+
+.profileNumbersDark h1 {
+  color: #fff !important;
+}
+
+.profileMenuDark a {
+  color: #fff !important;
+}
+
+.headerRecordsDark {
+  font-size: 20px !important;
+  text-align: center !important;
+  color: #fff !important;
+}
+
+.postDark h2,
+.postResultatenDark h2,
+.officieelBerichtDark h2 {
+  color: #fff !important;
+}
+
+.postContentDark h2 {
+  color: #fff !important;
+}
+
+.resultatenNumbersDark h2 {
+  color: #fff !important;
+}
+
+.headerWedstrijd {
+  margin-top: 0 !important;
+}
+
+.officieelBerichtH2Dark {
+  color: #fff !important;
+}
+
+.sidemenuDark i,
+.sidemenu img {
+  color: #fff !important;
+}
+
+.headerDark {
+  background: #121212 !important;
+}
+
+.headerDark h1 {
+  color: #fff !important;
+}
+
+.bottom-navbarDark a i,
+.headerDark i {
+  color: #fff !important;
+}
+
+.bottom-navbarDark {
+  background: #121212 !important;
+}
+
+.contentDark {
+  background: #121212;
+}
+
+.contentDark p {
+  color: #fff;
+}
+
+.contentDark h1 {
+  color: #fff;
+}
+
+.notificationContentDark {
+  background: #121212;
+}
+
+.notificationContentDark h1,
+.notificationContentDark p {
+  color: #fff;
+}
+
+.settingsDark {
+  background: #404040;
+}
